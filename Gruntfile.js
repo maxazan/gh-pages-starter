@@ -9,14 +9,6 @@ module.exports = function(grunt) {
                 data: 'src/data/*.json',
                 flatten: true
             },
-            index: {
-                options: {
-                    layout: "core.hbs"
-                },
-                files: {
-                    '.': ['src/index.hbs']
-                }
-            },
             pages: {
                 files: {
                     '.': ['src/pages/*.hbs']
